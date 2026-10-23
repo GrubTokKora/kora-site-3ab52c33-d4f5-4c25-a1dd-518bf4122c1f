@@ -3,8 +3,9 @@
 @source "../assets/**/*.js";
 
 /* Curry and Grill, Vandalia OH. Brand maroon from the original site (#8F1402), espresso for dark
-   bands, brass for hairlines and stars only, cream ground. Bodoni Moda + Figtree, Pinyon Script
-   for the wordmark. Fonts are self-hosted by Kora (kora:fonts region), never linked from Google. */
+   bands, brass for hairlines and stars only, cream ground.
+   Fraunces for headings, its italic for the wordmark and accent lines; Figtree body. Fonts are self-hosted by
+   Kora (kora:fonts region), never linked from Google. No separate accent family (2026-10-23, owner's pick). */
 @theme {
   --color-primary: #8F1402;
   --color-secondary: #2B1411;
@@ -18,7 +19,7 @@
   --color-muted: #6A5E58;
   --color-logo-red: #ED1C24;
 
-  --font-heading: var(--kora-font-heading, "Bodoni Moda"), "Didot", "Bodoni 72", Georgia, serif;
+  --font-heading: var(--kora-font-heading, "Fraunces"), Georgia, "Times New Roman", serif;
   --font-body: var(--kora-font-body, "Figtree"), "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --font-accent: var(--kora-font-accent, var(--font-heading)), var(--font-heading);
 }
@@ -75,7 +76,7 @@ a { color: inherit; }
 }
 .eyebrow::before { content: ""; width: 28px; height: 1px; background: currentColor; opacity: .7; }
 .eyebrow--light { color: var(--brass-soft); }
-.script { font-family: var(--font-accent); font-weight: 400; letter-spacing: 0; line-height: 1; }
+.script { font-family: var(--font-accent); font-style: italic; font-weight: 400; letter-spacing: 0; line-height: 1.05; }
 .lede { font-size: clamp(1.05rem, 1.4vw, 1.2rem); line-height: 1.7; color: var(--muted); max-width: 38rem; margin: 1.25rem 0 0; }
 .prose p { margin: 0 0 1.1rem; }
 .prose p:last-child { margin-bottom: 0; }
@@ -134,7 +135,7 @@ a { color: inherit; }
 /* One logo file (maroon PNG); on dark grounds it is lifted to cream with a filter. */
 .logo--light { filter: brightness(0) invert(1) sepia(.08); }
 .brand__text { display: flex; flex-direction: column; line-height: 1; }
-.brand__word { font-family: var(--font-accent); font-size: 2.05rem; line-height: .95; white-space: nowrap; }
+.brand__word { font-family: var(--font-accent); font-style: italic; font-weight: 500; font-size: 1.62rem; line-height: 1; letter-spacing: -.01em; white-space: nowrap; }
 .brand__sub { font: 600 .58rem/1 var(--font-body); letter-spacing: .3em; text-transform: uppercase; color: var(--muted); margin-top: .35rem; }
 .nav { display: flex; align-items: center; gap: 1.9rem; margin-left: auto; }
 .nav a {
@@ -180,7 +181,7 @@ html.menu-open { overflow: hidden; }
   .nav { display: none; }
   .burger { display: inline-flex; }
   .brand img { width: 38px; }
-  .brand__word { font-size: 1.75rem; }
+  .brand__word { font-size: 1.42rem; }
   .topbar__addr { display: none; }
   .topbar .wrap { justify-content: center; }
 }
@@ -211,7 +212,7 @@ html.menu-open { overflow: hidden; }
 }
 .hero__grid { position: relative; display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; padding: clamp(3.5rem, 7vw, 6.5rem) 0 clamp(6rem, 9vw, 8rem); }
 .hero__kicker { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.6rem; }
-.hero__kicker .script { font-size: 2.4rem; color: var(--brass-soft); }
+.hero__kicker .script { font-size: 1.9rem; color: var(--brass-soft); }
 .hero__kicker span:last-child { font: 600 .72rem/1.2 var(--font-body); letter-spacing: .22em; text-transform: uppercase; color: rgba(255, 252, 244, .75); padding-left: 1rem; border-left: 1px solid var(--line-light); }
 .hero .lede { color: rgba(255, 252, 244, .82); }
 .hero__proof { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem 1.4rem; margin-top: 2.6rem; padding-top: 1.6rem; border-top: 1px solid var(--line-light); font-size: .92rem; color: rgba(255, 252, 244, .82); }
@@ -254,7 +255,7 @@ html.menu-open { overflow: hidden; }
 
 /* ---------- buffet (dark) ---------- */
 .buffet { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(2.5rem, 6vw, 5.5rem); align-items: center; }
-.buffet__title .script { display: block; font-size: clamp(2.4rem, 4vw, 3.2rem); color: var(--brass-soft); margin-bottom: .2rem; }
+.buffet__title .script { display: block; font-size: clamp(1.7rem, 2.6vw, 2.2rem); color: var(--brass-soft); margin-bottom: .45rem; }
 .price-pair { display: grid; grid-template-columns: 1fr 1fr; margin: 2.4rem 0 0; border-top: 1px solid var(--line-light); border-bottom: 1px solid var(--line-light); }
 .price-pair div { padding: 1.4rem 0; }
 .price-pair div + div { padding-left: 1.6rem; border-left: 1px solid var(--line-light); }
@@ -417,7 +418,7 @@ html.menu-open { overflow: hidden; }
 .giftcard::after { content: ""; position: absolute; inset: 0; opacity: .1; background-image: radial-gradient(circle at 1px 1px, var(--cream) 1px, transparent 0); background-size: 18px 18px; }
 .giftcard__top { position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: flex-start; }
 .giftcard__top img { width: 58px; }
-.giftcard__word { font-family: var(--font-accent); font-size: 2.6rem; line-height: 1; }
+.giftcard__word { font-family: var(--font-accent); font-style: italic; font-weight: 500; font-size: 2rem; line-height: 1; }
 .giftcard__bottom { position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: flex-end; font-size: .72rem; letter-spacing: .22em; text-transform: uppercase; color: var(--brass-soft); }
 .giftcard__bottom b { font-family: var(--font-heading); font-size: 2rem; letter-spacing: 0; color: var(--cream); font-weight: 500; text-transform: none; }
 .giftcard-stage { display: grid; place-items: center; padding: 2rem 0; }
@@ -500,7 +501,7 @@ html.menu-open { overflow: hidden; }
   .buffet__gallery { grid-template-columns: 1fr 1fr; }
   .ftr__top { grid-template-columns: 1fr; gap: 2rem; }
   .btn-row .btn { flex: 1 1 100%; }
-  .hero__kicker .script { font-size: 2rem; }
+  .hero__kicker .script { font-size: 1.65rem; }
   .score b { font-size: 3.6rem; }
   .band__in { flex-direction: column; align-items: flex-start; }
 }
