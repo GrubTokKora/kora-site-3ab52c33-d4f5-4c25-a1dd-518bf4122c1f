@@ -10,11 +10,12 @@ Family-run Indian restaurant, 722 W National Rd, Vandalia OH. Rebuilt from the W
 - Logo red `#ED1C24` is reserved for the original logo file; the site uses maroon/cream recolours of the namaste-lady PNG.
 
 ## Type
-- Headings: Fraunces (500, optical sizing on; italic 400 for one emphasised word per heading).
-- Body: Figtree (closest Google match to the original Avenir).
+- Headings: DM Serif Display (single weight 400 + italic; `font-synthesis: none` so no rule can fake a bold).
+- Body: DM Sans.
 - Accent: none as a separate family. The wordmark "Curry & Grill" and short accent lines ("Namaste",
-  "Tuesday to Sunday") use Fraunces Italic. Bodoni Moda + Pinyon Script were replaced on 2026-10-23
-  (owner: hairlines too thin to read, script too ornate).
+  "Tuesday to Sunday") use DM Serif Display Italic.
+- History (2026-10-23, owner's picks from rendered comparisons): Bodoni Moda + Pinyon Script (hairlines too thin,
+  script too ornate) -> Fraunces (letterforms too curvy) -> DM Serif Display + DM Sans.
 - Fonts are self-hosted by Kora through the `<!-- kora:fonts -->` region; no Google Fonts links.
 
 ## Composition

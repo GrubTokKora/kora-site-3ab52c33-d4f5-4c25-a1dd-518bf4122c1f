@@ -72,7 +72,7 @@
   var st = status();
   document.querySelectorAll('[data-open-status]').forEach(function (el) { el.classList.toggle('is-open', st.open); });
   if (st.text) document.querySelectorAll('[data-open-text]').forEach(function (el) { el.textContent = st.text; });
-  document.querySelectorAll('tr[data-day="' + st.day + '"]').forEach(function (tr) { tr.classList.add('is-today'); });
+  document.querySelectorAll('tr[data-day="' + st.day + '"], tr[data-days~="' + st.day + '"]').forEach(function (tr) { tr.classList.add('is-today'); });
 
   /* ---------- contact form -> Kora forms API (<apiBaseUrl>/api/v1/public/forms/submit), reCAPTCHA v2 ---------- */
   var form = document.querySelector('form[data-kora-form]');
