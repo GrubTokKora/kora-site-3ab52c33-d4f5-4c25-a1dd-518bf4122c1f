@@ -1,30 +1,27 @@
 # Curry and Grill
 
-> Curry and Grill is a family-run Indian restaurant at 722 W National Rd in Vandalia, Ohio, serving North Indian curries, tandoori grills, biryanis and fresh naan, with a lunch buffet Tuesday to Sunday ($18.95 adults, $12.95 children). Dinner is served from 4:30 PM; closed Mondays. Every curry can be made mild, medium or hot; there is a full vegetarian section, vegan options and a full bar. Rated 4.8 from 313 Google reviews.
-
-## Visit
-- Address: 722 W National Rd, Vandalia, OH 45377
-- Phone: (937) 280-4448 (also (937) 626-9854)
-- Email: Mrverma2@yahoo.com
-- Hours: Monday closed. Tuesday–Friday 11:00 AM–2:30 PM and 4:30–9:30 PM. Saturday–Sunday 11:30 AM–3:00 PM and 4:30–9:30 PM.
-- Lunch buffet: Tuesday–Friday 11:00 AM–2:30 PM, Saturday–Sunday 11:30 AM–3:00 PM. $18.95 adults, $12.95 children.
-
-## Pages
-- [Home](https://www.currysgrill.com/): restaurant overview, lunch buffet, guest favorites, reviews, FAQ, hours and map
-- [Menu](https://www.currysgrill.com/menus): full menu with prices
-- [Lunch Buffet](https://www.currysgrill.com/lunch-buffet): buffet prices, hours and dishes
-- [Reservations](https://www.currysgrill.com/reservations): reserve by phone
-- [Gift Cards](https://www.currysgrill.com/gift-card): gift cards available at the restaurant
-- [Order Pickup](https://www.currysgrill.com/online-orders): call-in pickup orders; delivery via Uber Eats
+> Curry and Grill in Vandalia, OH offers fine Indian and Himalayan cuisine, featuring traditional curries, biryanis, and grilled specialties.
 
 ## Menu
-- Curries: Chicken; Lamb & Goat; Vegetarian; Seafood
-- Tandoor & Biryani: From the Tandoor; Biryani & Rice
-- Starters: Appetizers; Vegetarian Appetizers; Soups & Salads
-- Breads & Sides: Breads; Sides
-- Desserts & Drinks: Desserts; Drinks
+Curry and Grill in Vandalia, OH is known for its flavorful Indian and Himalayan cuisine, offering a variety of traditional curries, biryanis, and grilled specialties. Diners frequently enjoy favorites like chicken tikka masala, garlic naan, and momos.
 
-## Good to know
-- Curries can be made mild, medium or hot.
-- Full vegetarian section and vegan options; full bar with beer, wine and cocktails.
-- Free parking; wheelchair-accessible entrance, seating and restroom.
+### Offers
+- Lunch Buffet
+
+## Location & Contact
+- Address: 722 W National Rd, Vandalia, OH 45377
+- Phone: (937) 280-4448
+- Email: Mrverma2@yahoo.com
+
+## Hours
+- Monday: Closed
+- Tuesday: 11:00 AM – 2:30 PM, 4:30 PM – 9:30 PM
+- Wednesday: 11:00 AM – 2:30 PM, 4:30 PM – 9:30 PM
+- Thursday: 11:00 AM – 2:30 PM, 4:30 PM – 9:30 PM
+- Friday: 11:00 AM – 2:30 PM, 4:30 PM – 9:30 PM
+- Saturday: 11:30 AM – 3:00 PM, 4:30 PM – 9:30 PM
+- Sunday: 11:30 AM – 3:00 PM, 4:30 PM – 9:30 PM
+
+## Action Links
+- [Call to reserve](tel:+19372804448)
+- [View the menu](menus.html)
