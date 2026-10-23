@@ -1,0 +1,13 @@
+# Old Wix URLs (currysgrill.com) -> rebuilt pages. Kept pages (/, /menus, /reservations, /gift-card,
+# /online-orders) serve at the same paths, so they need no rule. Never redirect a path a real page serves.
+/experiences            /reservations   301
+/experience-details     /reservations   301
+/experience-details/*   /reservations   301
+/home                   /               301
+/menu                   /menus          301
+/menus/*                /menus          301
+/order-online           /online-orders  301
+/gift-cards             /gift-card      301
+/buffet                 /lunch-buffet   301
+/blank                  /               301
+/account/*              /               301

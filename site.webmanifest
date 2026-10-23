@@ -1,0 +1,15 @@
+{
+  "name": "Curry and Grill",
+  "short_name": "Curry & Grill",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#FFFCF4",
+  "theme_color": "#8F1402",
+  "icons": [
+    {
+      "src": "https://quseprdus1.blob.core.windows.net/kora-business-images/social-media/3ab52c33-d4f5-4c25-a1dd-518bf4122c1f/medialibrary/1792738251_9wao37.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
