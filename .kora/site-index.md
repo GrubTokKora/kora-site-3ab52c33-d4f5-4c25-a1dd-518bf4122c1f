@@ -59,12 +59,22 @@ also: Online gift card purchasing via Grubtok ordering platform.
 
 ## online-orders.html → /online-orders
 title: Order Indian Food for Pickup in Vandalia, OH | Curry and Grill
-purpose: Pickup ordering page: order by phone, pick up at the restaurant, delivery via Uber Eats.
+purpose: Pickup ordering page: online ordering portal or phone orders, pickup at the restaurant, delivery via Uber Eats and delivery page.
 sections:
-- `#top` "Order for pickup" — maroon page hero with the H1 and the storefront photo
-- `#how-to-order` "Three steps to dinner at home" — three ordering steps, Uber Eats delivery tile and a call card
-- `#cta` "Not sure what to order?" — closing band with call and menu buttons
-also: Phone orders only for now (Wix Restaurants Orders not replaced yet).
+- `#top` "Order for pickup" — maroon page hero with the H1, storefront photo and online ordering CTA
+- `#how-to-order` "Three steps to dinner at home" — three ordering steps with online ordering link, delivery tile and a call card
+- `#cta` "Not sure what to order?" — closing band with online ordering and phone call buttons
+
+## delivery.html → /delivery
+title: Indian Food Delivery in Vandalia, OH | Curry and Grill
+purpose: Indian food delivery page: order online via Grubtok, Uber Eats delivery, pickup options, kitchen hours and delivery favorites.
+sections:
+- `#hero` "Indian Food Delivery in Vandalia, OH" — maroon hero with online ordering CTA
+- `#ordering-options` — three-column facts strip: delivery, order online, call for pickup
+- `#delivery-details` "Fresh Indian cooking, right at your table" — delivery details with kitchen hours and location
+- `#popular-dishes` "Popular dishes to order for delivery" — popular dishes list with spice levels
+- `#faq` "Delivery questions, answered" — delivery FAQ accordion
+- `#order-cta` "Savor authentic Indian flavors tonight" — dark CTA band with online ordering button
 
 ## 404.html → /404
 title: Page not found | Curry and Grill, Vandalia, OH
