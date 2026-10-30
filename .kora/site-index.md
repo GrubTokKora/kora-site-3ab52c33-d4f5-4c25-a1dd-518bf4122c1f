@@ -40,20 +40,20 @@ sections:
 
 ## reservations.html → /reservations
 title: Reservations | Curry and Grill Indian Restaurant, Vandalia, OH
-purpose: Reservations information page: book by phone, steps, hours and visit planning.
+purpose: Reservations information page: book online or by phone, steps, hours and visit planning.
 sections:
 - `#top` "Reserve a table" — maroon page hero with the H1 and a table-setting photo
-- `#how-to-book` "Reservations by phone" — three booking steps beside a call card with hours
+- `#how-to-book` "Reserve online or by phone" — booking steps beside a reservation & call card with hours
 - `#occasions` "Lunch, dinner or a celebration" — three tiles: lunch buffet, dinner, groups and occasions
-- `#cta` "We look forward to hosting you" — closing band with call and directions buttons
-also: Reservations are by phone only for now (Wix Table Reservations not replaced yet).
+- `#cta` "We look forward to hosting you" — closing band with online reservation and call buttons
+also: Online reservations via Grubtok ordering platform, plus reservations by phone.
 
 ## gift-card.html → /gift-card
 title: Gift Cards | Curry and Grill Indian Restaurant, Vandalia, OH
-purpose: Gift card information page: gift cards are available online and at the restaurant.
+purpose: Gift card information page: gift cards are mainly available online.
 sections:
 - `#top` "Gift cards" — maroon page hero with the H1 and a dining room photo
-- `#buy` "Available at the restaurant" — three steps beside a CSS gift card visual and a call card
+- `#buy` "Mainly available online" — three steps beside a CSS gift card visual and a call card
 - `#cta` "Treat someone to dinner" — closing band with online gift card and menu buttons
 also: Online gift card purchasing via Grubtok ordering platform.
 
