@@ -6,7 +6,7 @@ address — and body copy are deliberately not recorded here; read the page itse
 title: Curry and Grill | Indian Restaurant & Lunch Buffet in Vandalia, OH
 purpose: Homepage of Curry and Grill, a family-run Indian restaurant in Vandalia, OH: hero, hours strip, story, lunch buffet, guest-favorite menu card with spice levels, dining room, Google reviews, FAQ, visit info and contact form.
 sections:
-- `#top` "Savor the authentic flavors of India" — maroon hero with the H1, intro, menu and call buttons, Google rating and an arched dish photo with a buffet tag
+- `#top` "Savor the authentic flavors of India" — maroon hero with the H1, intro, menu and order online buttons, Google rating and an arched dish photo with a buffet tag
 - `#essentials` — three-cell strip: lunch buffet days and hours, dinner hours, phone and address
 - `#story` "Modern flair, traditional recipes" — original About copy, family-run paragraph, framed two-photo collage with a family-run caption and three stats
 - `#buffet` "Tuesday to SundayThe lunch buffet" — dark band: lunch buffet prices for adults and children, buffet hours and three buffet photos

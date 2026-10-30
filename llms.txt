@@ -1,6 +1,6 @@
 # Curry and Grill
 
-> Curry and Grill is an Indian and Himalayan restaurant located in Vandalia, OH, offering traditional curries, biryanis, and grilled specialties. Diners can enjoy flavorful dishes such as chicken tikka masala, garlic naan, and momos.
+> Curry and Grill in Vandalia, OH offers flavorful Indian and Himalayan cuisine, featuring traditional curries, biryanis, and grilled specialties. Diners frequently enjoy favorites such as chicken tikka masala, garlic naan, and momos.
 
 ## Menu
 Curry and Grill in Vandalia, OH is known for its flavorful Indian and Himalayan cuisine, offering a variety of traditional curries, biryanis, and grilled specialties. Diners frequently enjoy favorites like chicken tikka masala, garlic naan, and momos.
@@ -23,5 +23,5 @@ Curry and Grill in Vandalia, OH is known for its flavorful Indian and Himalayan 
 - Sunday: 11:30 AM – 3:00 PM, 4:30 PM – 9:30 PM
 
 ## Action Links
-- [Call to reserve](tel:+19372804448)
+- [Order Online](https://order.currysgrill.com/online-orders)
 - [View the menu](menus.html)
