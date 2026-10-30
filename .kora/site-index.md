@@ -50,12 +50,12 @@ also: Reservations are by phone only for now (Wix Table Reservations not replace
 
 ## gift-card.html → /gift-card
 title: Gift Cards | Curry and Grill Indian Restaurant, Vandalia, OH
-purpose: Gift card information page: gift cards are available at the restaurant.
+purpose: Gift card information page: gift cards are available online and at the restaurant.
 sections:
 - `#top` "Gift cards" — maroon page hero with the H1 and a dining room photo
 - `#buy` "Available at the restaurant" — three steps beside a CSS gift card visual and a call card
-- `#cta` "Treat someone to dinner" — closing band with call and menu buttons
-also: No online gift card sales for now (Wix Gift Cards not replaced yet).
+- `#cta` "Treat someone to dinner" — closing band with online gift card and menu buttons
+also: Online gift card purchasing via Grubtok ordering platform.
 
 ## online-orders.html → /online-orders
 title: Order Indian Food for Pickup in Vandalia, OH | Curry and Grill
